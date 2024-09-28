@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+#products ul {
+    columns: 2;
+}
+
+#carouselSection {
+    margin-bottom: 50px;
+}
+
+.carousel-inner img {
+    height: 500px; /* Set a fixed height for carousel images */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
